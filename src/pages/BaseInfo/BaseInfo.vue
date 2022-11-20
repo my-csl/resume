@@ -1,19 +1,19 @@
 <template>
-  <view class="content">
-    <text>{{ title }}</text>
+  <view class="base-info">
+    <UserInfo></UserInfo>
   </view>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello123')
+import UserInfo from './component/UserInfo.vue'
 </script>
 
-<style scoped lang="scss">
-.content {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+<style lang="scss">
+page {
+  background-color: $uni-bg-color;
+}
+
+.base-info {
+  padding: $uni-padding-base;
 }
 </style>
