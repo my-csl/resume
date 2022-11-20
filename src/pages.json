@@ -32,18 +32,26 @@
 		"list": [
 			{
 				"pagePath": "pages/BaseInfo/BaseInfo",
+				"iconPath": "/static/tabbar/info.png",
+				"selectedIconPath": "/static/tabbar/info.png",
 				"text": "基本信息"
 			},
 			{
 				"pagePath": "pages/WorkExperience/WorkExperience",
+				"iconPath": "/static/tabbar/work.png",
+				"selectedIconPath": "/static/tabbar/work.png",
 				"text": "工作经历"
 			},
 			{
 				"pagePath": "pages/ProjectExperience/ProjectExperience",
+				"iconPath": "/static/tabbar/project.png",
+				"selectedIconPath": "/static/tabbar/project.png",
 				"text": "项目经历"
 			},
 			{
 				"pagePath": "pages/ContactInformation/ContactInformation",
+				"iconPath": "/static/tabbar/concat.png",
+				"selectedIconPath": "/static/tabbar/concat.png",
 				"text": "联系方式"
 			}
 		]
