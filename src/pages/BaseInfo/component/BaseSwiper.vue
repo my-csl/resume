@@ -1,16 +1,8 @@
 <template>
   <view class="base-swiper">
-    <swiper
-      :indicator-dots="true"
-      autoplay
-      circular
-      indicator-active-color="#7a7acd"
-    >
-      <swiper-item class="swiper-item" v-for="img in imgList" :key="img">
-        <image
-          :src="img"
-          mode="aspectFill"
-        />
+    <swiper :indicator-dots="true" autoplay circular indicator-active-color="#7a7acd">
+      <swiper-item v-for="img in imgList" :key="img" class="swiper-item">
+        <image :src="img" mode="aspectFill" />
       </swiper-item>
     </swiper>
   </view>

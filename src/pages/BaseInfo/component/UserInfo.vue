@@ -1,17 +1,17 @@
 <template>
   <view class="user-info">
     <view class="info">
-      <image class="avatar" src="/static/avatar.jfif"/>
+      <image class="avatar" src="/static/avatar.jfif"></image>
       <view class="content">
         <view class="name-year">
-          <text class="name">陈石林</text>
+          <text class="name"> 陈石林 </text>
           <text>两年前端开发经验</text>
         </view>
         <view class="gender-age">
           <text>男</text>
-          <text class="separator">/</text>
+          <text class="separator"> / </text>
           <text>24岁</text>
-          <text class="separator">/</text>
+          <text class="separator"> / </text>
           <!-- <text>全日制专科</text> -->
         </view>
       </view>
@@ -30,7 +30,9 @@ import BaseSwiper from './BaseSwiper.vue'
   background-color: $uni-bg-color-white;
   border-radius: $uni-border-radius-lg;
   padding: $uni-padding-base;
+  box-shadow: 0 0 15px $uni-bg-color;
 }
+
 .info {
   display: flex;
   align-items: center;
@@ -40,9 +42,6 @@ import BaseSwiper from './BaseSwiper.vue'
     height: 60px;
     border-radius: $uni-border-radius-lg;
     margin-right: 10px;
-  }
-
-  .content {
   }
 
   .name-year {

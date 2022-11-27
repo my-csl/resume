@@ -1,6 +1,4 @@
 module.exports = {
   extends: ['cz'],
-  rules: {
-
-  }
+  rules: {}
 }

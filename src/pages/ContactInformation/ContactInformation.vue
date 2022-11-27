@@ -1,5 +1,5 @@
 <template>
-<view>ContactInformation</view>
+  <view>ContactInformation</view>
 </template>
 
 <script setup lang="ts"></script>

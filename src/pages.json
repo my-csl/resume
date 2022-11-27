@@ -1,65 +1,66 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/BaseInfo/BaseInfo",
-			"style": {
-				"navigationBarTitleText": "基本信息"
-			}
-		},
-		{
-			"path": "pages/WorkExperience/WorkExperience",
-			"style": {
-				"navigationBarTitleText": "工作经历"
-			}
-		},
-		{
-			"path": "pages/ProjectExperience/ProjectExperience",
-			"style": {
-				"navigationBarTitleText": "项目经历"
-			}
-		},
-		{
-			"path": "pages/ContactInformation/ContactInformation",
-			"style": {
-				"navigationBarTitleText": "联系方式"
-			}
-		}
-	],
-	"tabBar": {
-		"color": "#000",
-		"borderStyle": "white",
-		"selectedColor": "#7a7acd",
-		"list": [
-			{
-				"pagePath": "pages/BaseInfo/BaseInfo",
-				"iconPath": "/static/tabbar/info.png",
-				"selectedIconPath": "/static/tabbar/info.png",
-				"text": "基本信息"
-			},
-			{
-				"pagePath": "pages/WorkExperience/WorkExperience",
-				"iconPath": "/static/tabbar/work.png",
-				"selectedIconPath": "/static/tabbar/work.png",
-				"text": "工作经历"
-			},
-			{
-				"pagePath": "pages/ProjectExperience/ProjectExperience",
-				"iconPath": "/static/tabbar/project.png",
-				"selectedIconPath": "/static/tabbar/project.png",
-				"text": "项目经历"
-			},
-			{
-				"pagePath": "pages/ContactInformation/ContactInformation",
-				"iconPath": "/static/tabbar/concat.png",
-				"selectedIconPath": "/static/tabbar/concat.png",
-				"text": "联系方式"
-			}
-		]
-	},
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/BaseInfo/BaseInfo",
+      "style": {
+        "navigationBarTitleText": "基本信息"
+      }
+    },
+    {
+      "path": "pages/WorkExperience/WorkExperience",
+      "style": {
+        "navigationBarTitleText": "工作经历"
+      }
+    },
+    {
+      "path": "pages/ProjectExperience/ProjectExperience",
+      "style": {
+        "navigationBarTitleText": "项目经历"
+      }
+    },
+    {
+      "path": "pages/ContactInformation/ContactInformation",
+      "style": {
+        "navigationBarTitleText": "联系方式"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#000",
+    "borderStyle": "white",
+    "selectedColor": "#7a7acd",
+    "list": [
+      {
+        "pagePath": "pages/BaseInfo/BaseInfo",
+        "iconPath": "/static/tabbar/info.png",
+        "selectedIconPath": "/static/tabbar/info.png",
+        "text": "基本信息"
+      },
+      {
+        "pagePath": "pages/WorkExperience/WorkExperience",
+        "iconPath": "/static/tabbar/work.png",
+        "selectedIconPath": "/static/tabbar/work.png",
+        "text": "工作经历"
+      },
+      {
+        "pagePath": "pages/ProjectExperience/ProjectExperience",
+        "iconPath": "/static/tabbar/project.png",
+        "selectedIconPath": "/static/tabbar/project.png",
+        "text": "项目经历"
+      },
+      {
+        "pagePath": "pages/ContactInformation/ContactInformation",
+        "iconPath": "/static/tabbar/concat.png",
+        "selectedIconPath": "/static/tabbar/concat.png",
+        "text": "联系方式"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
 }
