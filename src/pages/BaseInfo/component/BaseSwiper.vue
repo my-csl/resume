@@ -2,7 +2,7 @@
   <view class="base-swiper">
     <swiper :indicator-dots="true" autoplay circular indicator-active-color="#7a7acd">
       <swiper-item v-for="img in imgList" :key="img" class="swiper-item">
-        <image :src="img" mode="aspectFill" />
+        <image :src="img" mode="aspectFill"></image>
       </swiper-item>
     </swiper>
   </view>
@@ -25,5 +25,9 @@ const imgList = ref([one, two, three])
   width: 100%;
   height: 100px;
   border-radius: $uni-border-radius-lg;
+
+  image {
+    width: 100%;
+  }
 }
 </style>
