@@ -5,7 +5,7 @@
       <view class="content">
         <view class="name-year">
           <text class="name"> 陈石林 </text>
-          <text>两年前端开发经验</text>
+          <Tag value="两年前端开发经验" bg-color="#3c9cff"></Tag>
         </view>
         <view class="gender-age">
           <text>男</text>
@@ -45,6 +45,8 @@ import BaseSwiper from './BaseSwiper.vue'
   }
 
   .name-year {
+    display: flex;
+    align-items: center;
     font-size: 14px;
 
     .name {
