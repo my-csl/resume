@@ -26,7 +26,8 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'vue/html-self-closing': 'off',
-    'prettier/prettier': ['error']
+    'prettier/prettier': ['error'],
+    'vue/multi-word-component-names': 'off'
   },
   globals: {
     uni: 'readonly',
