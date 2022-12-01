@@ -10,7 +10,7 @@
         <view class="gender-age">
           <text>男</text>
           <text class="separator"> / </text>
-          <text>24岁</text>
+          <text>{{ getAge() }}岁</text>
           <text class="separator"> / </text>
           <!-- <text>全日制专科</text> -->
         </view>
@@ -23,6 +23,22 @@
 
 <script setup lang="ts">
 import BaseSwiper from './BaseSwiper.vue'
+
+const getAge = (birthday: Date | string = '1998-08-12') => {
+  const nowYear = new Date().getFullYear()
+  let year = 0
+  if (typeof birthday === 'string') {
+    const reg = /\d{4}-\d{2}-\d{2}/
+    if (reg.test(birthday)) {
+      year = new Date(birthday).getFullYear()
+    } else {
+      throw new Error('出生年月格式不对，格式应该为：yyyy-MM-dd')
+    }
+  } else {
+    year = birthday.getFullYear()
+  }
+  return nowYear - year
+}
 </script>
 
 <style scoped lang="scss">
