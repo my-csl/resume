@@ -10,7 +10,7 @@
 <script setup lang="ts">
 interface Props {
   title: string
-  border: boolean
+  border?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
