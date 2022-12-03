@@ -10,8 +10,8 @@ onHide(() => {
   console.log('App Hide')
 })
 </script>
-<style>
-view {
-  box-sizing: border-box;
+<style lang="scss">
+page {
+  background-color: $uni-bg-color !important;
 }
 </style>
