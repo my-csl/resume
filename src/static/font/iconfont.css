@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'resume'; /* Project id 3806329 */
+  src: url('//at.alicdn.com/t/c/font_3806329_nfslp6q0lfa.woff2?t=1670040903254') format('woff2'),
+    url('//at.alicdn.com/t/c/font_3806329_nfslp6q0lfa.woff?t=1670040903254') format('woff'),
+    url('//at.alicdn.com/t/c/font_3806329_nfslp6q0lfa.ttf?t=1670040903254') format('truetype');
+}
+
+.resume {
+  font-family: 'resume' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.resume-jiantou:before {
+  content: '\e622';
+}
+
+.resume-jiantoushang1:before {
+  content: '\e62d';
+}
+
+.resume-jiantouyou:before {
+  content: '\e62e';
+}
+
+.resume-jiantouxia:before {
+  content: '\e62f';
+}

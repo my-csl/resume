@@ -10,7 +10,9 @@ onHide(() => {
   console.log('App Hide')
 })
 </script>
+
 <style lang="scss">
+@import '@/static/font/iconfont.css';
 page {
   background-color: $uni-bg-color !important;
 }
