@@ -8,6 +8,7 @@
           :name="item.name"
           :skill="item.skill"
           :job="item.job"
+          @click="onClick($event)"
         ></ExperienceItem>
       </view>
     </ContainerBox>
@@ -27,10 +28,14 @@ const list = [
   {
     date: '2020.06-2022.03',
     name: '南昌耀启科技有限公司',
-    skill: 'h5、app、后台关系系统',
+    skill: 'h5、app、后台管理系统',
     job: '前端开发'
   }
 ]
+
+const onClick = (e: any) => {
+  console.log(e)
+}
 </script>
 
 <style scoped lang="scss">
