@@ -1,5 +1,5 @@
 <template>
-  <view class="detail-info">
+  <ContainerBox>
     <HeaderTitle title="基本信息"></HeaderTitle>
     <view class="detail">
       <view v-for="(item, index) in info" :key="index" class="cell">
@@ -7,7 +7,7 @@
         <text class="value">{{ item.value }}</text>
       </view>
     </view>
-  </view>
+  </ContainerBox>
 </template>
 
 <script setup lang="ts">
@@ -21,17 +21,11 @@ const info = [
 </script>
 
 <style scoped lang="scss">
-.detail-info {
-  background-color: $uni-bg-color-white;
-  border-radius: $uni-border-radius-lg;
-  padding: $uni-padding-base;
-
-  .cell {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    font-size: 14px;
-    color: $uni-text-color-grey;
-  }
+.cell {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  color: $uni-text-color-grey;
 }
 </style>

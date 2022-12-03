@@ -1,5 +1,5 @@
 <template>
-  <view class="user-info">
+  <ContainerBox>
     <view class="info">
       <image class="avatar" src="/static/avatar.jfif"></image>
       <view class="content">
@@ -18,7 +18,7 @@
     </view>
 
     <BaseSwiper></BaseSwiper>
-  </view>
+  </ContainerBox>
 </template>
 
 <script setup lang="ts">
@@ -42,13 +42,6 @@ const getAge = (birthday: Date | string = '1998-08-12') => {
 </script>
 
 <style scoped lang="scss">
-.user-info {
-  background-color: $uni-bg-color-white;
-  border-radius: $uni-border-radius-lg;
-  padding: $uni-padding-base;
-  box-shadow: 0 0 15px $uni-bg-color;
-}
-
 .info {
   display: flex;
   align-items: center;
