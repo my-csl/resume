@@ -1,10 +1,17 @@
 <template>
-  <view class="container-box">
+  <view class="container-box" :style="props.customStyle">
     <slot></slot>
   </view>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps({
+  customStyle: {
+    type: [Object, String],
+    default: ''
+  }
+})
+</script>
 
 <style scoped lang="scss">
 .container-box {
