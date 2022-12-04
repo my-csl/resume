@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'resume'; /* Project id 3806329 */
-  src: url('//at.alicdn.com/t/c/font_3806329_nfslp6q0lfa.woff2?t=1670040903254') format('woff2'),
-    url('//at.alicdn.com/t/c/font_3806329_nfslp6q0lfa.woff?t=1670040903254') format('woff'),
-    url('//at.alicdn.com/t/c/font_3806329_nfslp6q0lfa.ttf?t=1670040903254') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_3806329_kj6rtk5h3c.woff2?t=1670063866224') format('woff2'),
+    url('//at.alicdn.com/t/c/font_3806329_kj6rtk5h3c.woff?t=1670063866224') format('woff'),
+    url('//at.alicdn.com/t/c/font_3806329_kj6rtk5h3c.ttf?t=1670063866224') format('truetype');
 }
 
 .resume {
@@ -11,6 +11,38 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.resume-guanbi2:before {
+  content: '\e725';
+}
+
+.resume-shouji:before {
+  content: '\e611';
+}
+
+.resume-weixin:before {
+  content: '\e637';
+}
+
+.resume-weixin1:before {
+  content: '\e630';
+}
+
+.resume-qqqingliao:before {
+  content: '\e634';
+}
+
+.resume-MAILBOX:before {
+  content: '\e602';
+}
+
+.resume-wodeyouxiang:before {
+  content: '\e600';
+}
+
+.resume-weixin2:before {
+  content: '\e607';
 }
 
 .resume-jiantou:before {
